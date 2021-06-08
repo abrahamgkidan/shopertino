@@ -19,7 +19,7 @@ import ShopifyNativeCheckoutManager from '../apis/OrderAPIManager/ShopifyNativeC
 import ShopertinoConfig from '../ShopertinoConfig';
 import { IMLocalized } from '../Core/localization/IMLocalization';
 import AppStyles from '../AppStyles';
-import WebViewScreen from '../components/Home/WebView'
+
 const MainStack = createStackNavigator();
 const MainStackNavigator = () => {
   return (
@@ -40,7 +40,6 @@ const MainStackNavigator = () => {
       />
       <MainStack.Screen name="Settings" component={SettingsScreen} />
       <MainStack.Screen name="EditProfile" component={EditProfileScreen} />
-      <MainStack.Screen name="WebViewScreen" component={WebViewScreen} />
       <MainStack.Screen name="Contact" component={ContactUsScreen} />
       <MainStack.Screen
         name="ShippingAddress"

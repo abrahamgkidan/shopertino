@@ -11,5 +11,21 @@ export const icons = {
   "credit-card.png": require("./images/credit-card.png"),
   "box.png": require("./images/box.png"),
   "wishlist.png": require("./images/wishlist.png"),
-  "backArrow.png": require("./images/backArrow.png")
+  "backArrow.png": require("./images/backArrow.png"),
+  appIcon: require("./icons/logo.png")
+};
+export const colors = {
+
+};
+export const images = {
+
+};
+export const fonts = {
+
+};
+export default {
+  icons,
+  images,
+  fonts,
+  colors,
 };

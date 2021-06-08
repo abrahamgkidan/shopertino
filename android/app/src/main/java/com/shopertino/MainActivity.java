@@ -19,7 +19,7 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "Shopertino";
+        return "The Giving Movement";
     }
 
      @Override

@@ -14,4 +14,3 @@ export { default as CategoryProductGridScreen } from './Shop/CategoryProductGrid
 export { default as ShopScreen } from './Shop/ShopScreen';
 export { default as ShoppingBagScreen } from './ShoppingBagScreen/ShoppingBagScreen';
 export { default as WishlistScreen } from './WishlistScreen/WishlistScreen';
-export { default as WebViewScreen } from '../components/Home/WebView';
